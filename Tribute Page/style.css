@@ -1,0 +1,27 @@
+body{
+  margin:15px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNo4OESXZQLncPJCNcH-8cIKkG_OXACJ_y-XpWwHl7m4NHLbJX");
+  
+}
+h1{
+  font-family:Monotype Corsiva;
+  font-size:4em;
+}
+
+h2{
+  font-size:1.5em;
+  margin-top:-20px;
+  font-family: Lobster, Monospace;
+  color:blue;
+  
+}
+
+.paragrah{
+  font-family:"Monotype Corsiva";  
+  font-size:1.5em;
+}
+a{
+  color:green;
+  font-size:1.8em;
+  font-family:"Monotype Corsiva"
+}

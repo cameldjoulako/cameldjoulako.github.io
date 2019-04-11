@@ -1,0 +1,292 @@
+/* COPYRIGHT Camel DJOULAKO
+  March 2019
+ */
+
+
+/* 
+  General style
+   */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*Header style*/
+
+#header{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Open Sans', sans-serif;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.69)), url(../images/header.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	/* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%); */
+	height: 100vh;
+}
+
+#logo{
+	margin-left: 0.3rem;
+	display:flex;
+	flex-direction: row;
+}
+
+
+#navigation{
+	width: 100%;
+	display: flex;
+	padding:0.3rem;
+	flex-direction: row;
+	position: fixed;
+}
+
+#nav-bar{
+	height: 2rem;
+	padding-bottom: 0.5rem;
+	background-color: white;
+	display:flex;
+	flex-direction: row;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+#navigation nav  a{
+  text-decoration: none;
+  font-size: 15px;
+  color:rgba(54, 171, 203);
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Open Sans", Cambria;
+    /*margin-left: 1rem;*/
+}
+
+
+#navigation nav a:hover{
+  text-decoration: none;
+  border-bottom: 2px solid #f86631;
+}
+
+.header-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.hero-title{
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 96px;
+}
+
+h1 span{
+	font-weight:700;
+	font-size:100px;
+	line-height: 120px;
+}
+
+.hero-description{
+	font-family: Merriweather, "Helvetica Neue", Arial, sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 36px;
+	color: rgba(255, 255, 255, 0.7) ;
+	width: 40rem;
+}
+
+.button{
+	font-family: Merriweather, "Helvetica Neue", Arial, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 3rem;
+	border-bottom: 3px solid #f86631;
+}
+
+.button :hover{
+	background-color: #f86631;
+	padding: 10px;
+
+}
+
+/*Container style*/
+.container{
+	display:flex;
+	flex-direction: column;
+}
+
+section.about-us{
+	display: flex;
+	flex-direction: column;
+	justify-content:;
+	align-items: center;
+	height: 25rem;
+	background-color: #f86631;
+	color: white;
+	flex-wrap: wrap;
+
+}
+
+.section-content{
+	font-family: Merriweather, "Helvetica Neue", Arial, sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 36px;
+	color: white ;
+	width: 55rem;	
+}
+
+.section-title, .training-title{
+	padding-bottom: 1rem;
+	border-bottom: 2px solid white;
+}
+
+.button2{
+	font-family: Merriweather, "Helvetica Neue", Arial, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 3rem;
+	border-bottom: 3px solid #fff;
+}
+
+.button2 :hover{
+	background-color: white;
+	padding: 10px;
+	color: #f86631;
+}
+
+.training-section{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	height: 85vh;
+	width: 100%;
+}
+
+.video-section{
+  width:100%;
+  height:85vh;
+  overflow:hidden;
+}
+
+.video-section video{
+  min-height:100%;
+  min-width:100%;
+}
+
+.video-section-bg{
+  height:72vh;
+  position: absolute;
+  top:500;
+  left:500;
+  width:100%;
+  z-index:1;
+  background:#225470;
+  opacity:0.85;
+}
+
+
+.contact-section{
+	display:flex;
+	justify-content:center;	
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.contact-info{
+	display:flex;
+	flex-direction: column;
+	width: 25rem;
+}
+
+.contact-info h5{
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 1.5em;
+	color: #225470;
+}
+.contact-info h6{
+	font-size: 1em;
+}
+
+.contact-form{
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	width: 25rem;
+
+}
+.contact-form form{
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form form label{
+	margin-bottom:1.5rem;
+}
+
+.contact-form textarea {
+    height: 80%;
+    border: 1px solid #225470;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Lato;
+    resize: none;
+    padding: .5rem;
+    font-family: inherit;
+  }
+
+  .contact-form input{
+  	padding: .5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #225470;
+    border-radius: 10px;
+  } 
+
+  .contact-form input:focus{
+  	padding: .5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #225470;
+    border-radius: 10px;
+  }
+
+  .contact-form h4{
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 1.5em;
+	color: #225470;
+	text-transform: uppercase;
+}
+
+.contact-form #submit{
+	width: 16rem;
+	background-color: #225470;
+	color:#fff;
+}
+
+footer{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	background-color: #225470;
+	color: white;
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 1.5em;
+
+}

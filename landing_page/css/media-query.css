@@ -1,0 +1,228 @@
+@media only screen and (max-width: 512px){
+
+	/* COPYRIGHT Camel DJOULAKO
+  March 2019
+ */
+
+
+/*Header style*/
+
+#header{
+	flex-direction: column;
+	height: 100vh;
+}
+
+#logo{
+	margin-left: 0.3rem;
+	display:flex;
+}
+
+
+#navigation{
+	width: 100%;
+	flex-wrap: wrap;
+	padding:0.1rem;
+	flex-direction: column;
+}
+
+#nav-bar{
+	height: auto;
+	padding-bottom: 0.2rem;
+	background-color: white;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#navigation nav  a{
+  font-size: 14px;
+  line-height: 10px;
+  font-weight: 400;
+  margin-top: 1.2rem;
+}
+
+#navigation nav  a:hover{
+  padding-bottom:2px;
+}
+
+.header-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 1.5rem;
+}
+
+.hero-title{
+	margin-top: 10rem;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 100;
+	line-height: 96px;
+}
+
+h1 span{
+	font-weight:350;
+	font-size:50px;
+	line-height: 60px;
+}
+
+.hero-description{
+	font-weight: 150;
+	font-size: 13px;
+	line-height: 36px;
+	width: 20rem;
+}
+
+.button{
+	font-weight: 200;
+	font-size: 10px;
+	line-height: 15px;
+	margin-top: 0.5rem;
+
+.button:hover{
+	padding: 5px;
+
+}
+
+
+.about-us{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.section-content{
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 36px;
+	color: white ;
+	width: 55rem;	
+}
+
+.section-title, .training-title{
+	padding-bottom: 1rem;
+	border-bottom: 2px solid white;
+}
+
+.button2{
+	font-size: 20px;
+	line-height: 30px;;
+	margin-top: 3rem;
+	border-bottom: 3px solid #fff;
+}
+
+.button2 :hover{
+	background-color: white;
+	padding: 10px;
+	color: #f86631;
+}
+
+.training-section{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	height: 85vh;
+	width: 100%;
+}
+
+.video-section{
+  width:100%;
+  height:85vh;
+  overflow:hidden;
+}
+
+.video-section video{
+  min-height:100%;
+  min-width:100%;
+}
+
+.video-section-bg{
+  height:72vh;
+  position: absolute;
+  top:500;
+  left:500;
+  width:100%;
+  z-index:1;
+  background:#225470;
+  opacity:0.85;
+}
+
+
+.contact-section{
+	display:flex;
+	justify-content:center;
+	align-items: center;	
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+	flex-direction: column;
+}
+
+.contact-info{
+	display:flex;
+	flex-direction: column;
+	width: 25rem;
+}
+
+.contact-info h5{
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 1.5em;
+}	
+.contact-info h6{
+	font-size: 1em;
+}
+
+.contact-form{
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	width: 25rem;
+
+}
+.contact-form form{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+
+}
+
+.contact-form form label{
+	margin-bottom:1.5rem;
+}
+
+.contact-form textarea {
+    height: 80%;
+  }
+
+  .contact-form input{
+  	padding: .5rem;
+    margin-bottom: 1.5rem;
+  } 
+
+  .contact-form input:focus{
+  	padding: .5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-form h4{
+	font-size: 1.5em;
+	color: #225470;
+}
+
+.contact-form #submit{
+	width: 16rem;
+}
+
+footer{
+	display: flex;
+	font-size: 0.8em;
+	justify-content: center;
+	width: 100vw;
+	align-items: center;
+}
+
+
+}

@@ -1,0 +1,24 @@
+h2{
+	color: #1A3399;
+	font-size: 1.5em;
+	font-weight: 800px;
+	font-style: normal;
+	margin-bottom: 2px;
+	text-align: center;
+}
+
+
+h6{
+	color: red;
+	font-size: 1em;
+	font-weight: 500px;
+	font-style: normal;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+@media only screen(max-width: 500px){
+	canvas{
+		width: 400px;
+	}
+}

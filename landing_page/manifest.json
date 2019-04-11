@@ -1,0 +1,26 @@
+{
+  "name": "Homedeve",
+  "short_name": "Hdev",
+  "description": "Mobile and web development company",
+  "lang": "en-US",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "98x22",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "98x22",
+      "type": "image/png"
+    }
+  ],
+  "background_color":"#f86631",
+  "theme_color": "#2c3e50",
+  "orientation":"portrait-primary"
+}
+
+
+

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Java teccc">
+    <meta name="author" ="Camel Léonce Djoulako">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>JAVA - Technical Documentation Page</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <link rel="icon" type="image/png"  href="images/java.png">
+</head>
+<body>
+    <div class="javalogo">
+        <img src="images/java.png" alt="logo java" width="100rem">
+    </div>
+<nav id="navbar">
+  <header class="java">JAVA Doc</header>
+  <ul class="java"> 
+    <a class="nav-link" href="#Overview" rel="internal"><li>Overview</li></a>
+    <a class="nav-link" href="#Introduction_to_java" rel="internal"><li>1- Introduction to Java</li></a>
+    <a class="nav-link" href="#Java_variable_and_datatypes" rel="internal"><li>2- Java Variables and Datatypes</li></a>
+    <a class="nav-link" href="#Object_oriented_java" rel="internal"><li>3- Object-Oriented Java</li></a>
+    <a class="nav-link" href="#Conditionals_and_control_flow" rel="internal"><li>4- Conditionals and Control Flow</li></a>
+    <a class="nav-link" href="#Java_reference" rel="internal"><li>5- Java Reference</li></a>
+  </ul>
+</nav>
+<main id="main-doc">
+    <section class="main-section" id="Overview">
+        <header>Overview</header>
+        <article>
+            <p>
+                <li>Why Learn Java? </li><br>
+                Java is among the most popular programming languages out there, mainly because of how versatile and compatible it is. Java can be used for a large number of things, including software development, mobile applications, and large systems development. Knowing Java opens a great deal of doors for you as a developer.
+            </p>
+
+            <p>
+                <li>Take-Away Skills </li><br>
+                In this course you’ll be exposed to fundamental programming concepts, including object-oriented programming (OOP) using Java. You’ll build 7 Java projects—like a basic calculator—to help you practice along the way.
+            </p>
+        </artice>
+    </section>
+
+    <section class="main-section" id="Introduction">
+        <header>1- Introduction to JAVA</header>
+        <article>  
+            Welcome to the world of Java programming. <br>
+
+            <p>
+                Programming languages enable humans to write instructions that a computer can perform. With precise instructions, computers coordinate applications and systems that run the modern world.
+            <p>
+
+
+            <p>
+                Sun Microsystems released the Java programming language in 1995. Java is known for being simple, portable, secure, and robust. Though it was released over twenty years ago, Java remains one of the most popular programming languages today.
+            <p>
+
+
+           <p>
+                One reason people love Java is the Java Virtual Machine, which ensures the same Java code can be run on different operating systems and platforms. Sun Microsystems’ slogan for Java was “write once, run everywhere”.
+            <p>
+
+
+            <p>
+                Java Virtual Machine running Java on three different platforms
+            You’re interacting with a system using Java multiple times a day. As of 2019, 88% of smartphones run on Android, the mobile operating system written in Java!<p>
+
+
+            <p>
+                Programming languages are composed of syntax, the specific instructions which Java understands. We write syntax in files to create programs, which are executed by the computer to perform the desired task.    
+            <p>
+
+        </artice>
+    </section>
+
+    <section class="main-section" id="Java_variable_and_datatypes">
+        <header>2- Java Variables and Datatypes</header>
+        <article>
+            <p>
+                Let’s say we need a program that connects a user with new jobs. We need the user’s name, their salary, and their employment status. All of these pieces of information are stored in our program.
+            </p>
+
+            <p>
+                We store information in variables, named locations in memory.
+            <p>
+
+            <p>
+                Naming a piece of information allows us to use that name later, accessing the information we stored.
+            </p>
+
+            <p>
+                 Variables also give context and meaning to the data we’re storing. The value 42 could be someone’s age, a weight in pounds, or the number of orders placed. With a name, we know the value 42 is age, weightInPounds, or numOrdersPlaced.
+            </p>
+
+            <p>
+                In Java, we specify the type of information we’re storing. Primitive datatypes are types of data built-in to the Java system.</p>
+
+            <p>
+                We must declare a variable to reference it within our program. Declaring a variable requires that we specify the type and name:
+                <code lang="java">
+                // datatype variableName
+                int age;
+                double salaryRequirement;
+                boolean isEmployed; 
+                </code>
+            </p>
+            
+            <p>
+                The types of these variables are int, double, and boolean. This lesson will introduce these built-in types and more.
+            </p>
+
+            <p>
+                The names of the variables are age, salaryRequirement, and isEmployed.
+            </p>
+
+            <p>
+                These variables don’t have any associated value. To assign a value to a variable, we use the assignment operator =:
+
+                <code>
+                    age = 85;
+                </code>
+               <li> It’s common to declare a variable and assign the value in one line!</li>
+            </p>
+
+            <p>
+                <li>For example, to assign 2011 to a variable named yearCodecademyWasFounded of type int, we write:</li>
+
+                <code>
+                    int yearHomedeveWasFounded = 2017;
+                </code>
+            </p>
+
+        </artice>
+    </section>
+
+    <section class="main-section" id="Object_oriented_java">
+        <header>3- Object-Oriented Java</header>
+        <article>
+                        <h1>Introduction to Classes</h1>
+            <p>All programs require one or more classes that act as a model for the world.</p>
+
+            <p>For example, a program to track student test scores might have Student, Course, and Grade classes. Our real-world concerns, students and their grades, are inside the program as classes.</p>
+
+            <p>We represent each student as an instance, or object, of the Student class.</p>
+
+            <p>This is object-oriented programming because programs are built around objects and their interactions. An object contains state and behavior.</p>
+
+            <p>Diagram of a generic software object</p>
+
+            <p>Classes are a blueprint for objects. Blueprints detail the general structure. For example, all students have an ID, all courses can enroll a student, etc.</p>
+
+            <p>An instance is the thing itself. This student has an ID of 42, this course enrolled that student, etc.<p>
+
+            <p>Let’s review with another example, a savings account at a bank.</p>
+
+            <p>What should a savings account know?</p>
+
+            <p>The balance of money available.
+            What should a savings account do?</p>
+
+           <p> Deposit money.
+            Withdraw money.
+            Diagram of a Savings Account as software object</p>
+
+            <p>Imagine two people have accounts that are instances of the SavingsAccount class. They share behavior (how they deposit and withdraw) but have individual state (their balances), and even with the same balance amount these accounts are separate entities.</p>
+
+            <code>
+                public class SavingsAccount {
+  
+  int balance;
+  
+  public SavingsAccount(int initialBalance){
+    balance = initialBalance;
+  }
+  
+  public static void main(String[] args){
+    SavingsAccount savings = new SavingsAccount(2000);
+    
+    //Check balance:
+    System.out.println("Hello!");
+    System.out.println("Your balance is "+savings.balance);
+    
+    //Withdrawing:
+    int afterWithdraw = savings.balance - 300;
+    savings.balance = afterWithdraw;
+    System.out.println("You just withdrew "+300);
+    
+    //Check balance:
+    System.out.println("Hello!");
+    System.out.println("Your balance is "+savings.balance);
+    
+    //Deposit:
+    int afterDeposit = savings.balance + 600;
+    savings.balance = afterDeposit;
+    System.out.println("You just deposited "+600);
+    
+    //Check balance:
+    System.out.println("Hello!");
+    System.out.println("Your balance is "+savings.balance);
+    
+    //Deposit:
+    int afterDeposit2 = savings.balance + 600;
+    savings.balance = afterDeposit2;
+    System.out.println("You just deposited "+600);
+    
+    //Check balance:
+    System.out.println("Hello!");
+    System.out.println("Your balance is "+savings.balance);
+    
+  }       
+}
+
+            </code>
+        </article>
+    </section>
+
+    <section class="main-section" id="Conditionals_and_control_flow">
+        <header>4- Conditionals and Control Flow</header>
+        <article> 
+            <p>
+                So far, we’ve explored primitive data types and Java syntax. As we’ve seen, Java programs follow the instructions we provide them, such as printing values to the console.
+            <p>
+
+
+            <p>
+                We can also write Java programs that can follow different sets of instructions depending on the values that we provide to them. This is called control flow. In this lesson, we’ll learn how to use control flow in our programs.
+            <p>
+                <code>
+    public class Conditionals {
+    public static void main(String[] args) {
+
+
+        if (1 < 4 && 0 > 5) {
+
+            System.out.println("You ordered a cup of hot, mint tea.");
+
+        } else if (21 <= 19 || 17 >= 28) {
+            
+            System.out.println("You ordered freshly squeezed orange juice!");
+
+        } else if ( !(true == true) ) {
+
+            System.out.println("You ordered hot cocoa!");
+
+        } else {
+
+            System.out.println("You ordered a cup of Java!");
+
+        }
+
+        char answerChoice = 'C';
+
+        switch (answerChoice) {
+
+            case 'A': System.out.println("You answered: " + answerChoice + ". Please try again.");
+                                break; 
+
+            case 'B': System.out.println("You answered: " + answerChoice + ". Please try again.");
+                                break;
+
+            case 'C': System.out.println("You answered: " + answerChoice + ". That is correct!");
+                                break;
+
+            case 'D': System.out.println("You answered: " + answerChoice + ". Please try again.");
+                                break;
+
+            default:
+                System.out.println("Please select a valid answer choice.");
+
+        }
+
+
+    }
+}
+                </code>
+
+        </article>
+    </section>
+      
+    <section class="main-section" id="Java_reference">
+        <header>Java reference</header>
+        <article>
+          <li>All Java documentation in Available on Oracle Official website <br>
+           <a href="https://oracle.java.org/doc" target="_blank">Java SE - Oracle Doc and Tutorials</a>
+        </article>
+    </section>
+</main>
+    
+<script type="text/javascript" src="main.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
